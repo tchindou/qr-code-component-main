@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    p{ font-size: 15px;}
+    *{margin: 0px; padding: 0%;}
+    body{background-color: hsl(212, 45%, 89%); font-family: 'Outfit',sans-serif;}
+    .card{background-color: hsl(0, 0%, 100%); width: 240px; padding: 0.8%; height: 415px; border-radius: 15px; position: absolute; top: 15%; left: 41%;}
+    .qr{width: 100%; height: 60%; }
+    h3,h5{margin-top: 7%; text-align: center; justify-content: center;}
+    @media all and (max-width: 375px) {
+      .card{position: absolute; top: 12%; left: 13%; right: 13%; padding: 2%;}
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="qr">
+        <img src="images/image-qr-code.png" width="100%" height="100%" style=" border-radius: 10px;">
+    </div>
+    <h3 style="color: hsl(218, 44%, 22%);"><b>Improve your front-end skills by building projects</b></h3>
+    <h5 style="color: hsl(220, 15%, 55%);">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</h5>
+  </div>
+  
+  <div class="attribution" style="justify-content: center; text-align: center;">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tchindou Alaise</a>.
+  </div>
+</body>
+</html>
